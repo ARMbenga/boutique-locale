@@ -1,0 +1,137 @@
+.drapeau {
+    display: flex;
+    justify-content: center;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 4px;
+}
+
+.b1 {
+    background-color: rgb(10, 141, 38);
+    border: green solid 2px;
+    padding: 40px;
+    color: white;
+    border-radius: 10px 0px 0px 10px;
+
+
+}
+
+.b2 {
+    background-color: rgb(237, 240, 52);
+    border: yellow solid 2px;
+    padding: 40px;
+    color: black;
+
+}
+
+.b3 {
+    background-color: red;
+    border: red solid 2px;
+    padding: 40px;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    color: rgb(46, 12, 100);
+    text-decoration: underline;
+
+
+}
+
+a:hover {
+    color: rgb(97, 97, 255)
+}
+
+.countainer a {
+    margin-right: 20px;
+}
+
+.fruit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.carte {
+    padding: 20px;
+    background-color: rgb(139, 134, 134);
+    border-radius: 4px;
+    margin: 4px;
+
+}
+
+.carte:hover {
+    background-color: white;
+}
+
+img {
+    border: solid 1px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+div+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    padding: 10px;
+    font-size: 1.3em;
+    padding-bottom: 10px;
+
+}
+
+button {
+    background-color: rgb(14, 14, 105);
+    color: white;
+    border: solid 1px;
+    border-color: rgb(83, 83, 255)
+}
+
+button:hover {
+    background-color: rgb(62, 62, 250)
+}
+
+input {
+    border-color: blue
+}
+
+input:focus {
+    border-color: rgb(26, 26, 82)
+}
+
+fieldset {
+    margin: auto;
+    padding: 50px;
+    width: 250px;
+}
+
+.formulaire {
+    background: linear-gradient(to bottom, white, rgb(106, 133, 170));
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: white;
+    width: 350px;
+    margin: auto;
+}
+
+.bouton {
+    background-color: rgb(52, 52, 156);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+}
